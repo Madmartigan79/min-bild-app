@@ -52,7 +52,7 @@ function App() {
 return (
     <div className="app-container">
       <header>
-        <h1>Totalt antal kvar: {totalCount}</h1>
+        <h1>Totalt tiles left: {totalCount}</h1>
       </header>
 
       <div className="grid-container">
@@ -69,7 +69,7 @@ return (
       </div>
 
       {/* Här ligger knappen nu, under rutnätet! */}
-      <button onClick={handleReset} className="reset-btn">Återställ</button>
+      <button onClick={handleReset} className="reset-btn">Reset</button>
     </div>
   )
 }
